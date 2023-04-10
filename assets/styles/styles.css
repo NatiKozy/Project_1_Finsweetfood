@@ -1245,7 +1245,7 @@ h4 {
 .location__info {
   background-color: rgba(31, 29, 33, 1);
   width: 30%;
-  padding-top:3%
+  padding-top:3%;
 }
 
 .location__info-text {
@@ -1258,8 +1258,8 @@ h4 {
 }
 
 .map{
-  max-width: 100%;
-  height:auto;
+  object-fit: cover;
+  width: 100%;
 }
 
 @media(max-width:767px){
@@ -1267,11 +1267,14 @@ h4 {
       display:none;
   }
   .location__info{
-      display: flex;
+    display: flex;
       background: none;
+      width: 90%;
   }
-  .contact{
-      display: none;
+  .location__info-text{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1%;
   }
 }
 /* стоп блок Люды */

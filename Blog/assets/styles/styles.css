@@ -1,0 +1,279 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  .body {
+    background-color: rgb(0, 0, 0);
+    max-width: 1600px;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .blog__featured {
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    padding-left: 160px;
+    padding-right: 247px;
+  }
+
+
+  .blog__title {
+font-family: 'Playfair Display';
+font-weight: 600;
+font-size: 48px;
+color: #FFFFFF;
+text-align: center;
+padding-top: 95px;
+margin: 0 auto;
+  }
+
+  .blog__trending-sign {
+    display: flex;
+    justify-content: flex-start;
+  }
+
+.blog__trending-sign-text {
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+color: #FFFFFF;
+background-color: rgba(255, 196, 146, 0.47);
+padding: 14px 30px;
+}
+
+.blog__trending {
+display: flex;
+flex-direction: row;
+margin-top: 58px;
+margin-bottom: 160px;;
+}
+
+/* blog__trending-left start */
+.blog__trending-left {
+margin-bottom: 0;
+}
+
+.blog__trending-main-card {
+  position: relative;
+  object-fit: cover;
+}
+
+.blog__trending-pic-lg {
+  width: 100%;
+}
+
+/* .blog__trending-main-card::after {
+display: block;
+content: ‘’;
+width: 100%;
+height: 100%;
+background-color: rgba(20, 17, 21, 0.81);
+position: absolute;
+top: 0;
+left: 0;
+z-index: 2;
+} вот эта штука (overlay) не отрабатывает, непонятно почему */
+
+.blog__trending-title {
+    position: absolute;
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 64px;
+    color:#FFFFFF;
+    bottom: 132px;
+    left: 64px;
+    text-align: left;
+    z-index: 3;
+}
+
+
+.blog__trending-author {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 44px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.blog__trending-avatar {
+    margin-left: 64px;
+    margin-right: 16px;
+}
+
+.blog__trending-name {
+font-family: Poppins;
+font-size: 16px;
+font-weight: 400;
+line-height: 28px;
+color:#FFFFFF;
+}
+
+.blog__trending-date {
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+color:#B8B8B8;
+}
+
+.blog__trending-readmore {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  position: absolute;
+  bottom: 49px;
+  right: 63px;
+}
+
+.blog__trending-readmore-sign {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #FFFFFF;
+  background-image: url("../images/arrow.svg");
+  background-repeat: no-repeat;
+  background-position: right center;
+  padding-right: 50px;
+}
+
+/* blog__trending-left end */
+
+/* blog__trending-right start */
+
+.blog__trending-card {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 32px;
+}
+
+.blog__trending-pic {
+  margin: 0 32px 0 32px;
+}
+
+.blog__trending-desc {
+    display: flex;
+    flex-direction: column;
+    padding-right: 32px;
+}
+
+.blog__trending-h3 {
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    color:#FFFFFF;
+}
+
+.blog__trending-text {
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 28px;
+color: #B8B8B8;
+}
+
+/* blog__trending-right end */
+
+/* all articles start */
+
+.articles__title {
+font: Playfair Display;
+font-weight: 700;
+font-size: 36px;
+line-height: 44px;
+color: #FFFFFF;
+text-align: center;
+margin-bottom: 64px;
+}
+
+.articles {
+display: flex;
+flex-direction: row;
+}
+
+.articles__left {
+  margin-right: 60px;
+}
+
+.articles__card {
+display: flex;
+flex-direction: row;
+}
+
+.article__card-pic {
+  margin-right: 40px;
+  margin-bottom: 40px;
+}
+
+.article__card-desc {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.article__card-author {
+display: flex;
+flex-direction: row;
+margin-bottom: 28px;
+}
+
+.article__card-info {
+  margin-left: 16px;
+}
+
+.article__card-name {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  color:#FFFFFF;
+}
+
+.article__card-date {
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+color:#B8B8B8;
+}
+
+
+.article__card-title {
+font-family: 'Playfair Display';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 30px;
+color: #FFFFFF;
+margin-bottom: 24px;
+}
+
+.article__card-readmore-sign {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #FFFFFF;
+  background-image: url("../images/arrow.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/* all articles end */

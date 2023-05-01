@@ -239,6 +239,11 @@ h4 {
   flex-wrap: wrap;
 }
 
+.main_tel{
+  text-decoration: none;
+  color: #FFF;
+}
+
 @media (max-width: 1140px) {
   .main__img-bg {
     display: none;
